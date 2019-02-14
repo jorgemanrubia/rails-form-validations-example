@@ -21,3 +21,7 @@
 .error{
     color: red;
 }
+
+.invalid{
+    border: 1px solid red;
+}
