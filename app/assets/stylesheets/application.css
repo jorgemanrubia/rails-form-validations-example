@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.field p{
+    margin-top: 0;
+}
+
+.error{
+    color: red;
+}
