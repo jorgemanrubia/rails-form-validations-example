@@ -63,6 +63,8 @@ export default class extends Controller {
 
   removeExistingErrorMessage (field) {
     const fieldContainer = field.closest('.field')
+    if(!fieldContainer)
+      return;
     const existingErrorMessageElement = fieldContainer.querySelector('.error')
     if (existingErrorMessageElement)
       existingErrorMessageElement.parentNode.removeChild(existingErrorMessageElement)
