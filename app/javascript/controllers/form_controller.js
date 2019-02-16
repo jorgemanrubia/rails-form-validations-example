@@ -25,14 +25,6 @@ export default class extends Controller {
     }
   }
 
-  submit () {
-    if (this.element.getAttribute('data-remote')) {
-      this.element.dispatchEvent(new CustomEvent('submit', { bubbles: true, cancelable: true }))
-    } else {
-      this.element.submit()
-    }
-  }
-
   validateForm () {
     let isValid = true
     // Not using `find` because we want to validate all the fields
