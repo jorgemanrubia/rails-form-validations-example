@@ -1,24 +1,5 @@
-# README
+# Readme
+Rails demo showing an approach to form validation with Rails 5, Stimulus, remote forms, webpacker and HTML5 standard form validations.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Read the companion blog-post](https://jorgemanrubia.com/2019/02/16/form-validations-with-html5-and-modern-rails/)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
