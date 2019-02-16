@@ -4,8 +4,8 @@ ActionView::Base.field_error_proc = Proc.new do |html_tag, instance_tag|
   fragment = Nokogiri::HTML.fragment(html_tag)
   field = fragment.at('input,select,textarea')
 
-  object = instance_tag.object
-  error_message = object.errors.full_messages.join(', ')
+  model = instance_tag.object
+  error_message = model.errors.full_messages.join(', ')
 
   html = if field
            field['class'] = "#{field['class']} invalid"
